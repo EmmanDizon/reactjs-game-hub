@@ -5,4 +5,5 @@ export default axios.create({
   params: {
     key: "95af713b7a4444a296bd57acd15e6703",
   },
+  headers: { "Content-Type": "application/json" },
 });

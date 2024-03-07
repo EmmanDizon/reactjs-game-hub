@@ -40,7 +40,7 @@ const GameGrid = ({ gameQuery }: Props) => {
         ))}
       </SimpleGrid>
       {hasNextPage && (
-        <Button onClick={() => fetchNextPage} marginY={5}>
+        <Button onClick={() => fetchNextPage()} marginY={5}>
           {isFetchingNextPage ? "Loading..." : "Load More"}
         </Button>
       )}

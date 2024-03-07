@@ -11,7 +11,7 @@ export interface Game {
   metacritic: number;
 }
 
-const apiClient = new ApiClient<Platform>("/games");
+const apiClient = new ApiClient<Game>("/games");
 
 const useGames = (gameQuery: GameQuery) =>
   useQuery({

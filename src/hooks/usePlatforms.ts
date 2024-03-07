@@ -1,4 +1,4 @@
-import ApiClient, { FetchResponse } from "../services/api-client";
+import ApiClient from "../services/api-client";
 import platforms from "../data/platforms";
 import { useQuery } from "@tanstack/react-query";
 

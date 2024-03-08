@@ -1,12 +1,7 @@
 import ApiClient from "../services/api-client";
 import platforms from "../data/platforms";
 import { useQuery } from "@tanstack/react-query";
-
-export interface Platform {
-  id: number;
-  name: string;
-  slug: string;
-}
+import { Platform } from "../entities/Platform";
 
 const apiClient = new ApiClient<Platform>("/platforms/lists/parents");
 
